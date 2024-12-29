@@ -1,0 +1,45 @@
+#big {
+    /* height: 700px; */
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    bottom: 21px;
+}
+
+#image9 {
+    width: 100%;
+    filter: contrast(1.1);
+}
+
+label {
+    display: block;
+    position: relative;
+    right: 70px;
+    font-style: italic;
+}
+
+#btn66 {
+    margin-top: 20px;
+    position: relative;
+    right: 30px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+input {
+    background-color: #cccccc;
+    border: none;
+    width: 160px;
+}
+
+#hh{
+ position: relative;
+ top: 0px;
+}
+::placeholder{
+    padding-left: 10px;
+}

@@ -1,0 +1,52 @@
+#foo {
+    background-color: beige;
+}
+
+h5 {
+    color: black;
+    font-family: serif;
+    font-size: 15px;
+}
+
+h5:hover {
+    color: #e0bc00;
+}
+
+#aa {
+    color: white;
+    font-family: serif;
+}
+
+#aaa {
+    color: black;
+    font-family: serif;
+    font-weight: 630;
+}
+
+#end {
+    color: white;
+    font-family: serif;
+}
+
+i:hover {
+    color: gold;
+}
+
+#span9 {
+    transform: translatex(20px);
+    animation: infinite 2s ah;
+}
+
+@keyframes ah {
+    0% {
+        transform: translateX(10px);
+    }
+
+    50% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}

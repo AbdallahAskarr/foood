@@ -1,0 +1,119 @@
+#ahaa {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 30px;
+}
+
+.team .team_box {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 13px;
+
+
+}
+
+.team .team_box .profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 1px black;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 1px 0px 3px red;
+    transition: 0.4s;
+    animation: infinite 4s s;
+}
+
+@keyframes s {
+    30% {
+        box-shadow: 1px 0px 3px yellow;
+    }
+
+    50% {
+        box-shadow: 1px 0px 3px green;
+    }
+
+    70% {
+        box-shadow: 1px 0px 3px orange;
+    }
+
+    80% {
+        box-shadow: 1px 0px 3px blue;
+    }
+
+    100% {
+        box-shadow: 1px 0px 3px white;
+    }
+}
+
+.team .team_box .profile:hover {
+    border-radius: 20px;
+    height: 320px;
+
+}
+
+.team .team_box .profile img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: solid 2px wheat;
+    filter: contrast(1.3);
+    /* box-shadow: 1px 0px 3px black; */
+
+    z-index: 2;
+    transition: 0.4s;
+
+}
+
+.team .team_box .profile:hover img {
+    border-radius: 20px;
+    margin-top: -220px;
+
+}
+
+.team .team_box .profile .info {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transition: 0.4s;
+}
+
+.team .team_box .profile:hover .info {
+    top: 51%;
+}
+
+
+.team .team_box .profile .info .name {
+    color: goldenrod;
+    margin-bottom: 15px;
+
+}
+
+.team .team_box .profile:hover .info .bio {
+    width: 70%;
+    text-align: center;
+    margin: 10px auto 4px auto;
+}
+
+.team .team_box .profile:hover .info .team_icon i {
+    margin: -10px 7px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.team .team_box .profile:hover .info .team_icon i:hover {
+    color: goldenrod;
+
+}
